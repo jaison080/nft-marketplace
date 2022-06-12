@@ -114,14 +114,7 @@ const Header = ({
                       <Link to="#0" onClick={closeMenu}>Documentation</Link>
                     </li> */}
                   </ul>
-                  {!hideSignin &&
-                    <ul
-                      className="list-reset header-nav-right"
-                    >
-                      <li>
-                        <a href="https://cryptoswap69.netlify.app" className="button button-primary button-wide-mobile button-sm" >Connect Wallet</a>
-                      </li>
-                    </ul>}
+                 
                 </div>
               </nav>
             </>}
